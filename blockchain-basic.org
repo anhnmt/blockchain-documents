@@ -1,0 +1,169 @@
+#+TITLE: Blockchain Basic
+#+AUTHOR: Dang Quang Vu
+
+* Bản chất Blockchain
+- Blockchain (Chuỗi khối) là một thuật ngữ trong lĩnh vực công nghê thông tin,
+  nó là sự kết hợp của các chuyên môn kỹ thuật trong nhiều lĩnh vực bao gồm toán
+  học, mật mã học, internet và lập trình máy tính.
+- Nói một cách đơn giản blockchain là một sổ cái hoặc cơ sở dữ liệu được chia sẻ
+  phân tán, trong đó dữ liệu hoặc thông tin được lưu trữ với các đặc điểm như
+  phân quyền và bất biến.
+- Các tính năng này đảm bảo tính "trung thực" và "minh bạch" của blockchain, tạo
+  nền tảng cho việc tạo niềm tin trên thế giới internet. Những đặt điểm này cho
+  phép blockchain  giải quyết nhiều vấn đề về bất cân xứng thông tin, cho phép
+  người dùng cộng tác mà không cần sự tham gia của bên trung gian thứ 3 cũng như
+  không cần sự tin tưởng lẫn nhau. Điều này tạo ra sự tin tưởng và nhất quán
+  giữa nhiều chủ thế, do đó tạo ra một cơ chế hợp tác với triển vọng ứng dụng
+  rộng rãi và phong phú.
+* Blockchain hoạt động như thế nào?
+- Các "khối" trong blockchain tương tự như các ổ cứng mà chúng ta sử dụng để lưu
+  trữ dữ liệu. Một block là một nơi lưu trữ trên blockchain. Các thông tin đó
+  được mã hoá qua công nghệ mật mã đảm bảo rằng dữ liệu không thể bị giả mạo.
+- Hệ thông blockchain kiểm tra tất cả dữ liệu được tạo ra chẳng hạn như bản ghi
+  giao dịch và khi các khối này được chỉnh sửa, đồng thời nó sẽ dược lưu trữ dữ
+  liệu trên một block mới. Block này sẽ kết nối với các block trước đó, và một
+  block phải chứa thông tin liên quan tới block trước đó để có hiệu lực, do đó
+  tạo ra thành một chuỗi, nên tên gọi của nó được gọi là "blockchain".
+- Ví dụ: mạng xã hội facebook có người chia sẻ một thông tin trên newfeed thì
+  thông tin đó chỉ có những người bạn của bạn trên facebook mới có thể thấy
+  được, và bạn cũng muốn chia sẻ thông tin đó thì thông tin đó sẽ được lưu trữ
+  ngay trên newfeed của bạn, và thông tin đó cũng được chia sẻ cho bạn của bạn,
+  và vòng lặp đó lại tiếp tục.
+- Tương tự như ví dụ trên thì dữ liệu của blockchain xác minh tính hợp lệ, nếu
+  như hợp lệ tại một node nào đó, thì node đó sẽ mã hoá và lưu thông tin đó ở
+  mempool và sau đó chia sẻ đó cho 8 người khác và cứ thế tiếp tục lặp lại.
+* Các ứng dụng của Blockchain:
+- Thời điểm hiện tại chúng ta vẫn có thể nói blockchain vẫn đang ở giai đoạn
+  original, nó sẽ còn có nhiều bước tiến, nhiều sự thay đổi trong tương lai
+  nhưng với những thông tin hiện tại thì cũng ta vẫn có thể biết được nó sẽ giúp
+  cho chúng ta ứng dụng nó vào những vấn đề nào.
+- Các ứng dụng khác của blockchain bao gồm:
+  + Tiền điện tử:
+    - Là một phương tiện mạnh mẽ giúp cho người dùng có thể gửi hoặc nhận tiền
+      cho mọi người trên khắp thế giới và thời gian cần thiết thấp hơn nhiều so
+      với chuyển khoản ngân hàng thông thường với phí sử lý không đáng kể, và
+      tiền điện tử không thể giả mạo đảm bảo tính xác thực và độ tin cậy của các
+      giao dịch.
+  + Thanh toán có điều điện:
+    - Nếu 2 người không quen biết nhau muốn đặt cuọc một trò chơi thể thao. Sau
+      đó cả 2 có thể bắt đầu với một smart contract "hợp đồng thông minh". Sau
+      khi kết thúc, hợp đồng thông minh sẽ đánh giá kết quả và gửi tiền đặt cọc
+      cho người chiến thắng.
+  + Dữ liệu phân tán:
+    - Blockchain có thể tuỳ chọn tích hợp các thiếu bị lưu trữ phân tán để quản
+      lý tệp.
+  + Chứng khoán:
+    - Chứng khoán bao gồm cổ phiếu, trái phiếu, quỹ và các loại chứng khoán
+      khác. Mặc dù tiền điện tử dựa trên blockchain sẽ gây ra một mực độ rủi ro
+      đối tác nhất định, nhưng nó có thể mang lại những cãi tiến rất cần thiết
+      cho ngành tài chính, đưa tính thanh khoản và tính khả chuyển mới vào lĩnh
+      vực chúng khoán hiện tại, đồng thời thực hiện mã hoá tài sản ( chẳng hạn
+      như tài sản và vốn chủ sở hữu. )
+  + Chuỗi cung ứng:
+    - Chuỗi cung ứng hiệu quả là trọng tâm của nhiều doanh nghiệp thành công và
+      liên quan đến cách hàng hoá luân chuyển từ nhà cung cấp đến người tiêu
+      dùng. Tuy nhiên, các phương pháp truyền thống gặp khó khagwn trong việc
+      phối hợp nhiều bên liên quan trong một ngành nhất định. Sử dụng công nghệ
+      blockchain, cơ sở dữ liệu không thể thay đổi có thể được ứng dụng, nhiều
+      doanh nghiệp sẽ chia sẻ một nền tảng thông tin, nâng cấp tính minh bạch
+      của vô số ngành lên một tầm cao mới.
+  + Games:
+    - Người chơi dự vào các máy chủ do các công ty game kiểm soát, nhưng người
+      chơi không có quyền sở hữu thực sự và nội dung trò chơi chỉ tồn tại trong
+      các thông số cụ thể nào đó. Nếu chế độ vận hành của blockchain được vận
+      hành, người chơi sẽ có thể sở hữu tài sản của riêng mình và có khả năng
+      giao dịch với những người khác và thị trường.
+  + Y khoá:
+    - Tính minh bạch và bảo mật của công nghệ blockchain cung cấp một nền tảng
+      lý tưởng để lưu trữ hồ sơ ý tế. NGành y tế, chẳng hạn như bệnh viện, phòng
+      khám và các nhà cung cấp dịch vụ y tế khác, hoạt động trong các silo và
+      dựa vào các máy chủ tập trung đặt thông tin nhạy cảm ở một trạng thái dễ
+      dàng bị tấng công. Nếu hồ sơ ý tế cá nhân được mã hoá được lưuu trữ trên
+      blockchain, bệnh nhận vừa có thể bảo vệ quyền riêng tư của mình vừa dễ
+      dàng chia sẻ thông tin với bất kỳ ai muốn sử dụng cơ sở dữ liệu đó trên
+      toàn cầu.
+  + Nhận dạng kỹ thuật số:
+    - Trong thời đại kỹ thuật số, chúng ta rất cần một giải pháp nhận dạng kỹ
+      thuật số. Nhận dạng vật lý rất dễ giả mạo. Cái gọi là "danh tính tự trị"
+      có thể được gắn vào sổ cái blockchain và bị ràng buộc với chủ sở hữu danh
+      tính. chủ sở hữu danh tính có thể tiết lộ thông tin cá nhận một cách có
+      chọn lọc cho bên thứ 3 mà không phải hy sinh quyền riêng tư cá nhân.
+  + Internet Of thing:
+    - Một số người suy đoán rằng này càng có nhiều thiết bị trong thế giới thực
+      có thể kết nối với internet, điều này sẽ đống góp rất nhiều vào công nghệ
+      blockchain trong cả kịch bản gia đình và công nghiệp. Sự phát triển của
+      các thiết bị này đòi hỏi một nền kinh tế thanh toán "máy với máy" mới,
+      được củng cố bởi các hệ thông thanh toán vi mộ thông lượng cao.
+  + Từ thiện:
+    - Các tổ chức từ chiện thường gặp trở ngại khi nhận tài trợ, và việc tận
+      dụng đặc tính vốn có của công nghệ blockchain để tăng tính minh bạch,
+      tương tác quốc tế và giảm chi phí có thể tối đa hoá các hoạt động từ thiện.
+* Phân loại Blockchain
+- Public Blockchain - Blockchain công cộng
+  + là dạng blockchain công khai mà bất kỳ ai cũng có thể tham gia, chẳng hạn
+    như bitcoin. Những nhược điểm của loại này hầu hết các công nghệ public
+    chain yêu cầu tài nguyên phần cứng cao để đảm bảo an ninh và tính riêng tư
+    của các giao dịch là cực kỳ thấp hoặc hoàn toàn không. Và đây là những cân
+    nhắc quang trọng đối với các trường hợp sử dụng doanh nghiệp blockchain.
+- Private Blockchain
+  + Private chain tương tự như một public chain ở chỗ nó là một mạng ngang hàng
+    phi tập trung với sự khác biệt đáng kể là toàn bộ mạng của blockchain riêng
+    được quản lý bởi một tổ chức. Tổ chức có toàn quyền kiểm soát những ai được
+    phép tham gia và duy trù mạng lưới blockchain. Tuỳ thuộc vào các sử dụng,
+    niềm tin và sự tin tưởng giữa những người tham gia có thể được cải thiện
+    đáng kẻ. Các blockchain riêng tư có thể chạy sau tưởng lửa của công ty hoặc
+    thậm chí có thể lưu trữ trên mạng lan của công ty.
+- Consortium Blockchain:
+  + Nhiều tổ chức có thể chia sẻ trách nhiệm duy trì blockchain, các tổ chức
+    được chọn trước này sẽ quyết định ai có thể gửi giao dịch hoặc truy cập dữ
+    liệu. Chuỗi khối liên hợp là lý tưởng cho kinh doanh khi tất cả người tham
+    gia cần được cấp phép và chia sẻ trách nhiệm đối với blockchain.
+* Ưu và nhược điểm của Blockchain:
+** Ưu điểm:
+1. Phân cấp: Blockchain sử dụng công nghệ mạng ngang hàng để lưu trữ dữ liệu, sử
+   dụng kế toán và lữu trữ phân tán nên không cần có phần cứng hoặc tổ chức quản
+   lý tập trung nào. Quyền và nghĩa vụ của tất cả các node đều bình đẳng, do đó
+   việc dừng hoạt động của bất kỳ node nào cũng sẽ không ảnh hưởng đến hệ thống chung.
+2. Bảo trì tập thể: Hệ thống mở, ngoài trừ thông tin các nhân của các bên giao
+   dịch được mã hoá, hệ thống được bảo trì chung bởi tất cả các node có chức
+   năng bảo trì và bất kỳ ai cũng có thể truy vẫn dữ liệu blockchain và phát
+   triển các ứng dụng liên quan, vì vậy toàn bộ thông tin hệ thống có tính minh
+   bạch cao.
+
+3. Bảo mật cao: Khi thông tin được xác minh và thêm vào blockchain nó sẽ được
+   lưu trữ vĩnh viễn. Tạo một tập hợp các cơ sở dữ liệu được ghi lại theo thứ tự
+   thời gian, bất biến và đáng tin cậy, có thể hạn chế các hành vi sai trái liên
+   quan. Do đó, tính ổn định và độ tinh cậy dữ liệu của blockchain cực kỳ cao.
+
+4. Không cần tin tưởng vào hệ thống: Vì việc trao đổi thông tin giữa các nut
+   tuần theo một thuật toán cố định, người tham gia không cần phải tin tưởng bất
+   kỳ ai và tính bảo mật của hệ thống tăng lên khi số lượng node tham gia tăng
+   lên. Do đó, bên đối tác không cần phải là cho bên kia tin tưởng mình bằng các
+   tiết lộ danh tính của minh, điều này rất hữu ích cho việc tích luỹ tín dụng.
+
+** Nhược điểm:
+1. Vấn đề bảo mật: Một tính năng chính của blockchain là nó không thể thay đổi
+   được nhưng một vấn đề ở đây là private key. Nếu private key do người dùng tạo
+   bị mất, bạn sẽ không thể làm gì với tài sản của tài khoản. Cộng với sự phát
+   triển của công nghệ điện toán mới như máy tính lượng tử, các thuật toán mã
+   hoá bất đối xứng sẽ có khả năng bị bẻ khoá nhất định trong tương lai, đây
+   cũng là một mối đe doạ bảo mật tiềm ẩn mà công nghệ blockchain phải đối mặt.
+2. Chậm trễ dữ liệu: Trong blockchain tài chính, thời gian xác định dữ liệu
+   tương đối lâu. Ví dụ thời gian xác nhận của Bitcoin khoản 10 phút, hay 30tps
+   của ethereum. Mặc dù với những blockchain thế hệ mới giải quyết được rất
+   nhiều ván đề về tps như solana sử dụng cơ chế PoH, hay cơ chế chia để chị của
+   sharding được áp dụng bởi eth2.0, near hay polkadot nhưng tốc độ thực tế vẫn
+   chưa phải quá lớn.
+3. Pháp lý: Các tính năng phi tập trung và tự trị của blockchain làm loãng khái
+   niệm giám sát của nhà nước. Tuy nhiên, tất cả các đối mới cần đáp ứng các yêu
+   cầu quy định. Việc giám sát blockchain, theo một quy trình nhất định, thúc
+   đẩy ứng dụng thương mại blockchain và cung cấp khả năng bảo vệ tuân thủ tốt
+   hơn. Mặc khác nếu có sự chậm trễ trong việc thiệt lập luật và hệ thống cho
+   công nghệ mới này của các cơ quan quản lý, điều này cũng có thể phá huỷ
+   blockchain hoặc làm chậm tốc độ phát triển của công nghệ này ở quốc gia đó.
+
+- Là một sự đổi mới về ý tưởng, blockchain có thể tác động lật đổ trong các lĩnh
+  vực cụ thể. Điều cần làm khi đối mặt với ưu và nhược điểm của blockchain là
+  tận dụng những điểm mạnh và tránh những điểu yếu của nó. Vì vậy liệu
+  blockchain có thể trở thành công nghệ nền tảng của cơ sở hạ tầng tài chính thế
+  giới mới hay không vẫn là một câu hỏi?
