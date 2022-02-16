@@ -1,6 +1,12 @@
 #+TITLE: Blockchain Basic
 #+AUTHOR: Dang Quang Vu
 
+* Infomartion
+- Tên: Đặng Quang Vũ - 1994.
+- Remote Blockchain Engineer for DCapital Singapore
+- Start learning Blockchain programming and research since 2016
+- Channel Owner Youtube traning web3.0 & blockchain has more 3k+
+
 * Bản chất Blockchain
 - Blockchain (Chuỗi khối) là một thuật ngữ trong lĩnh vực công nghê thông tin,
   nó là sự kết hợp của các chuyên môn kỹ thuật trong nhiều lĩnh vực bao gồm toán
